@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+venv/
+env/
+
+# Data files
+data/raw/
+data/processed/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# dbt
+dbt/target/
+dbt/packages/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Credentials and configs
+configs/*.json
+configs/*.ini
+configs/*.yml
+!configs/*.example.*
+
+# Outputs
+outputs/
